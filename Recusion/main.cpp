@@ -66,5 +66,5 @@ double power(double a, int n)
 }
 int Fibonacci(int fib)
 {
-	return fib == 0 ? 0 : fib <= 2 ? 1 : Fibonacci(fib - 1) + Fibonacci(fib - 2);
+	return fib < 2 ? 1 : Fibonacci(fib - 1) + Fibonacci(fib - 2);
 }
